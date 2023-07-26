@@ -1,13 +1,14 @@
 <%- include('../partials/header') %>
-<form action="/flights/" method="POST">
+
+<form action="/flights" method="POST">
     <label>Airline: </label>
-    <select name="airport" >
+    <select name="airline" >
         <option value="American">American</option>
         <option value="Southwest">Southwest</option>
         <option value="United">United</option>
         
      </select><br>
-    <input type="text" name="airline"><br><br><br>
+    <!-- <input type="text" name="airline"><br><br><br> -->
     <label>Airport</label>
     <select name="airport" >
         <option value="AUS">AUS</option>
